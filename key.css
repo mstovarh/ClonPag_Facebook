@@ -1,0 +1,160 @@
+body {
+    background-color: #F0F2F7;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+nav fieldset {
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+nav .container-fluid {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    width: 97vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav h3 {
+    flex: 1;
+    color: #336699;
+    font-size: 25px;
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+}
+
+nav .mb-3 {
+    flex: 1;
+    margin: 0px;
+    border: 0px;
+    padding: 5px;
+    align-items: flex-start; 
+    justify-content: flex-end; 
+}
+
+nav input {
+    width: 20%;
+    padding: 10px;
+    margin: 2px;
+    font-size: smaller;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #F0F2F7;
+}
+
+nav input:focus {
+    border-color: #338399;
+    box-shadow: 0 0 3px #5ca2c2;
+    outline: none;
+}
+
+nav button {
+    padding: 10px;
+    margin: 2px;
+    font-size: smaller;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    width: 20%;
+    background-color: #336699;
+}
+
+nav button:hover {
+    background-color: #1c3e5f;
+}
+
+nav button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+    color: #338399;
+}
+
+.c-key fieldset {
+    flex: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35vw;
+    height: 17vw;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.c-key h2 {
+    padding: 2px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.c-key h3 {
+    padding: 2px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.c-key input {
+    width: 90%;
+    padding: 15px;
+    margin: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #F0F2F7;
+}
+
+.c-key input:focus {
+    border-color: #338399;
+    box-shadow: 0 0 3px #5ca2c2;
+    outline: none;
+}
+
+.c-key .buttends {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.c-key button {
+    padding: 8px;
+    margin: 2px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.c-key #button1 {
+    width: 25%;
+    background-color: #ccd2d7;
+}
+
+.c-key #button2 {
+    width: 25%;
+    background-color: #2075c0;
+}
