@@ -10,7 +10,7 @@ Creado con: <a>https://favicon.io/favicon-generator/</a>
 
 ## 🪄Paleta de colores
 
-<img width="556" alt="image" src="https://github.com/mstovarh/ClonPag_Facebook/assets/107591274/51ef0b2d-ffec-43ed-800d-cefe58464f91">
+<img width="556" alt="image" src="https://github.com/mstovarh/ClonPag_Facebook/assets/107591274/d7b165ea-3f82-47a7-89cb-c16bdc075240">
 
 Tomada de: <a>https://color.adobe.com/es/explore</a>
 
