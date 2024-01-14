@@ -1,0 +1,406 @@
+.key-style {
+    background-color: #F0F2F7;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav fieldset {
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 10vh;
+    width: 100%;
+}
+
+nav h3 {
+    flex: 1;
+    color: #336699;
+    font-size: 3em;
+    margin: auto;
+    padding-left: 0.5em;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+}
+
+nav form {
+    display: flex;
+    flex: 1;
+    padding: 0.5em;
+    align-items: flex-start; 
+    justify-content: flex-end;
+    width: 100%;
+}
+
+nav input {
+    max-width: 30%;
+    height: 3em;
+    margin: 0.2em;
+    font-size: smaller;
+    border-radius: 2.5em;
+    border-width: 0.5em;
+    border-color: #F0F2F7;
+}
+
+nav input:focus {
+    border-color: #338399;
+    box-shadow: 0 0 3px #5ca2c2;
+    outline: none;
+}
+
+nav button {
+    margin: 0.2em;
+    border-radius: 2.5em;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    max-width: 15%;
+    height: 2.5em;
+    background-color: #336699;
+}
+
+nav button:hover {
+    background-color: #1c3e5f;
+}
+
+nav button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a {
+    max-width: 15%;
+    padding: 0.3em;
+    text-align: center;
+    text-decoration: none;
+    color: #338399;
+}
+
+.c-key fieldset {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    border-radius: 1em;
+    padding: 1.2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.c-key h2 {
+    margin-bottom: 0.1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2.2em;
+}
+
+.c-key h3 {
+    margin-bottom: 0.5em;
+    font-family: 'Inter', sans-serif;
+}
+
+.c-key input {
+    width: 100%;
+    padding: 1em;
+    margin-top: 0.8em;
+    font-size: medium;
+    border-radius: 0.5em;
+    border-width: 0.1em;
+    border-color: #F0F2F7;
+}
+
+.c-key input:focus {
+    border-color: #338399;
+    box-shadow: 0 0 3px #5ca2c2;
+    outline: none;
+}
+
+.c-key .buttends {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.c-key button {
+    padding: 0.5em;
+    margin: 0.2em;
+    border-radius: 0.5em;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.c-key #button1 {
+    background-color: #9ea3a8;
+    color: #FFFFFF;
+}
+
+.c-key #button1:hover {
+    background-color: #b6bbc0;
+}
+
+.c-key #button2 {
+    background-color: #2075c0;
+    color: #FFFFFF;
+}
+
+.c-key #button2:hover {
+    background-color: #1c69ac;
+}
+
+footer {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 10vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    nav fieldset {
+        height: 25vh;
+    }
+
+    nav h3 {
+        flex: 1;
+        font-size: 2.5em;
+        padding: 0em;
+        text-align: center;
+    }
+
+    .form-style {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav form {
+        padding: 0.8em;
+    }
+
+    nav button a {
+        font-size: 4vw;
+    }
+    
+    nav a {
+        font-size: 2.8vw;
+        padding: 0.1em;
+    }
+
+    .c-key fieldset {
+        height: 30vh;
+        width: 70vw;
+    }
+
+    .c-key h2 {
+        font-size: 2em;
+    }
+    
+    .c-key h3 {
+        font-size: 1.2em;
+    }
+
+    .c-key button {
+        font-size: 3vw;
+    }
+    
+    .c-key #button1 {
+        width: 40%;
+    }
+    
+    .c-key #button2 {
+        width: 40%;
+    }
+    
+}
+  
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    nav fieldset {
+        height: 20vh;
+    }
+
+    nav form {
+        padding: 0.8em;
+    }
+
+    nav button a {
+        font-size: 2.5vw;
+    }
+    
+    nav a {
+        font-size: 1.8vw;
+        padding: 0.1em;
+    }
+
+    .c-key fieldset {
+        height: 35vh;
+        width: 70vw;
+    }
+
+    .c-key h2 {
+        font-size: 2.2em;
+    }
+    
+    .c-key h3 {
+        font-size: 1.6em;
+    }
+
+    .c-key button {
+        font-size: 2.8vw;
+    }
+    
+    .c-key #button1 {
+        width: 37%;
+    }
+    
+    .c-key #button2 {
+        width: 37%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    nav fieldset {
+        height: 22vh;
+    }
+
+    nav form {
+        padding: 1em;
+    }
+
+    nav button a {
+        font-size: 2vw;
+    }
+    
+    nav a {
+        font-size: 1.5vw;
+        padding: 0.1em;
+    }
+
+    .c-key fieldset {
+        height: 35vh;
+        width: 68vw;
+    }
+
+    .c-key h2 {
+        font-size: 2.4em;
+    }
+    
+    .c-key h3 {
+        font-size: 1.8em;
+    }
+
+    .c-key button {
+        font-size: 2.4vw;
+    }
+    
+    .c-key #button1 {
+        width: 32%;
+    }
+    
+    .c-key #button2 {
+        width: 32%;
+    }
+}
+  
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    nav button a {
+        font-size: 1.4vw;
+    }
+    
+    nav a {
+        font-size: 1.2vw;
+        padding: 0.1em;
+    }
+
+    .c-key fieldset {
+        height: 35vh;
+        width: 68vw;
+    }
+
+    .c-key h2 {
+        font-size: 2.6em;
+    }
+    
+    .c-key h3 {
+        font-size: 2em;
+    }
+
+    .c-key button {
+        font-size: 2vw;
+    }
+    
+    .c-key #button1 {
+        width: 25%;
+    }
+    
+    .c-key #button2 {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    nav button a {
+        font-size: 1.2vw;
+    }
+    
+    nav a {
+        font-size: 1vw;
+        padding: 0.2em;
+    }
+
+    .c-key fieldset {
+        height: 35vh;
+        width: 50vw;
+    }
+
+    .c-key h2 {
+        font-size: 2.4em;
+    }
+    
+    .c-key h3 {
+        font-size: 1.8em;
+    }
+
+    .c-key button {
+        font-size: 1.8vw;
+    }
+    
+    .c-key #button1 {
+        width: 22%;
+    }
+    
+    .c-key #button2 {
+        width: 22%;
+    }
+}
+
+@media screen and (min-width: 1401px) {
+    .c-key fieldset {
+        height: 45vh;
+        width: 50vw;
+    }
+
+    .c-key h2 {
+        font-size: 2.5em;
+    }
+    
+    .c-key h3 {
+        font-size: 2.2em;
+    }
+
+    .c-key button {
+        font-size: 1.5vw;
+    }
+    
+    .c-key #button1 {
+        width: 20%;
+    }
+    
+    .c-key #button2 {
+        width: 20%;
+    }
+}

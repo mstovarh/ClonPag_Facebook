@@ -1,0 +1,271 @@
+.main-style {
+  width: 100vw;
+  height: 100vh;
+}
+
+.section1 {
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+}
+
+.section1 h1 {
+  color: #0866ff;
+  font-weight: bold;
+}
+
+.section1 h2 {
+  color: #000000;
+  font-weight: lighter;
+}
+
+.section2 {
+  margin: auto;
+}
+
+.section2 fieldset {
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 0.8em;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.section2 input {
+  width: 100%;
+  padding: 0.7em;
+  margin-top: 0.4em;
+  font-size: x-large;
+  border-radius: 0.3em;
+  border-width: 0.05em;
+  border-color: #F0F2F7;
+}
+
+.section2 input:focus {
+  border-color: #0866ff;
+  box-shadow: 0 0 3px #5ca2c2;
+  outline: none;
+}
+
+.section2 #button1 {
+  width: 100%;
+  padding: 0.6em;
+  margin-top: 0.4em;
+  margin-bottom: 0.2em;
+  font-size: x-large;
+  border-radius: 0.3em;
+  border: none;
+  font-family: 'Kanit', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #0866ff;
+  transition: background-color 0.5s ease;
+}
+
+.section2 #button1:hover {
+  background-color: #296bcd;
+}
+
+.section2 #mostrarModal {
+  width: 50%;
+  color: #FFFFFF; 
+  padding: 0.6em;
+  margin-bottom: 0.4em;
+  font-size: x-large;
+  border-radius: 0.3em;
+  border: none;
+  font-family: 'Kanit', sans-serif;
+  cursor: pointer;
+  background-color: #48ad34;
+  transition: background-color 0.5s ease;
+}
+
+.section2 #mostrarModal:hover {
+  background-color: #3e952d;
+}
+
+.section2 a {
+  text-decoration: none;
+  color: #0866ff;
+  font-size: 1.2em;
+  transition: background-color 0.5s ease;
+}
+
+.section2 a:hover {
+  color: #296bcd;
+}
+
+.section2 p {
+  width: 80%;
+  height: 100%;
+  margin: 2em 0em;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.449);
+  overflow: auto;
+  &.visible {
+    display: block;
+  }
+}
+
+.modal-contenido {
+  background-color: #FFFFFF;
+  padding: 2em;
+  width: 80%;
+  max-width: 600px;
+  margin: 15% auto;
+  border-radius: 0.8em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.cerrar {
+  position: relative;
+  top: 25%;
+  left: 48%;
+  cursor: pointer;
+}
+
+.btn-modal-logup {
+  width: 60%;
+  color: #FFFFFF; 
+  padding: 0.6em;
+  margin: 0.5em;
+  font-size: x-large;
+  border-radius: 0.3em;
+  border: none;
+  font-family: 'Kanit', sans-serif;
+  cursor: pointer;
+  background-color: #48ad34;
+  transition: background-color 0.5s ease;
+}
+
+.btn-modal-logup:hover {
+  background-color: #48ad34;
+}
+
+.section2 h2, h3 {
+  font-family: 'Kanit', sans-serif;
+  text-align: left;
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .section1 {
+    padding: 5em;
+  }
+
+  .section1 h1 {
+    font-size: 12vw;
+  }
+  
+  .section1 h2 {
+    font-size: 5vw;
+  }
+
+  .section2 fieldset {
+    margin: auto; 
+  }
+
+  .section2 #mostrarModal {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .section1 {
+    padding: 7em;
+  }
+
+  .section1 h1 {
+    font-size: 9vw;
+  }
+  
+  .section1 h2 {
+    font-size: 3.5vw;
+  }
+
+  .section2 fieldset {
+    margin: auto; 
+  }
+
+  .section2 #mostrarModal {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .section1 {
+    padding: 8em;
+  }
+
+  .section1 h1 {
+    font-size: 8vw;
+  }
+  
+  .section1 h2 {
+    font-size: 3.2vw;
+  }
+
+  .section2 fieldset {
+    margin: auto; 
+  }
+
+  .section2 #mostrarModal {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .section1 {
+    padding: 9em;
+  }
+
+  .section1 h1 {
+    font-size: 7vw;
+  }
+  
+  .section1 h2 {
+    font-size: 3vw;
+  }
+  
+  .section2 fieldset {
+    margin: auto; 
+  }
+
+  .section2 #mostrarModal {
+    width: 78%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .section1 {
+    padding: 10em;
+  }
+
+  .section1 h1 {
+    font-size: 4.5vw;
+  }
+
+  .section1 h2 {
+    font-size: 2.1vw;
+  }
+
+  .section2 #mostrarModal {
+    width: 76%;
+  }
+}
