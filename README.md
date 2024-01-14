@@ -4,7 +4,7 @@ ClonPag Facebook emerge como un desafiante proyecto de desarrollo web con la fin
 
 ## ✨Logo
 
-![android-chrome-512x512](https://github.com/mstovarh/ClonPag_Facebook/assets/107591274/43531a83-7fcf-42cf-a487-f3a5fd9d5a2a)
+![android-chrome-512x512](https://github.com/mstovarh/ClonPag_Facebook/assets/107591274/d38a005c-1526-4b74-a005-8a66eca3e061)
 
 Creado con: <a>https://favicon.io/favicon-generator/</a>
 
