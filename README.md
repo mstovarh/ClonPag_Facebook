@@ -24,7 +24,7 @@ Tomada de: <a>https://fonts.google.com/specimen/Pangolin](https://fonts.google.c
 
 <a>https://mstovarh.github.io/ClonPag_Facebook/</a>
 
-<img width="910" alt="image" src="https://github.com/mstovarh/ClonPag_Facebook/assets/107591274/90d3edc1-a266-480e-b8d4-aa405ed628d6">
+<img width="910" alt="image" src="https://github.com/mstovarh/ClonPag_Facebook/assets/107591274/abf7fdde-c70c-4668-8cd9-09402cc8bb67">
 
 ## 📙Requisitos de instalación
 
