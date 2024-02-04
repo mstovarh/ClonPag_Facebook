@@ -5,7 +5,10 @@
 
 .section1 {
   font-family: 'Poppins', sans-serif;
-  margin: auto;
+  margin-left: 4em;
+  margin-right: 4em;
+  display: flex;
+  align-items: center;
 }
 
 .section1 h1 {
@@ -19,7 +22,8 @@
 }
 
 .section2 {
-  margin: auto;
+  display: grid;
+  align-items: center;  
 }
 
 .section2 fieldset {
@@ -35,9 +39,9 @@
 
 .section2 input {
   width: 100%;
-  padding: 0.7em;
+  padding: 0.5em;
   margin-top: 0.4em;
-  font-size: x-large;
+  font-size: large;
   border-radius: 0.3em;
   border-width: 0.05em;
   border-color: #F0F2F7;
@@ -54,7 +58,7 @@
   padding: 0.6em;
   margin-top: 0.4em;
   margin-bottom: 0.2em;
-  font-size: x-large;
+  font-size: large;
   border-radius: 0.3em;
   border: none;
   font-family: 'Kanit', sans-serif;
@@ -69,12 +73,16 @@
   background-color: #296bcd;
 }
 
+.section2 .st-pas {
+  font-size: medium;
+}
+
 .section2 #mostrarModal {
   width: 50%;
   color: #FFFFFF; 
   padding: 0.6em;
   margin-bottom: 0.4em;
-  font-size: x-large;
+  font-size: large;
   border-radius: 0.3em;
   border: none;
   font-family: 'Kanit', sans-serif;
@@ -101,9 +109,9 @@
 .section2 p {
   width: 80%;
   height: 100%;
-  margin: 2em 0em;
+  margin: 1em 0em;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .modal {
@@ -144,7 +152,7 @@
   color: #FFFFFF; 
   padding: 0.6em;
   margin: 0.5em;
-  font-size: x-large;
+  font-size: large;
   border-radius: 0.3em;
   border: none;
   font-family: 'Kanit', sans-serif;
@@ -162,8 +170,6 @@
   text-align: left;
 }
 
-
-
 @media screen and (max-width: 576px) {
   .section1 {
     padding: 5em;
@@ -179,6 +185,10 @@
 
   .section2 fieldset {
     margin: auto; 
+  }
+
+  .section2 p {
+    margin: 1em auto; 
   }
 
   .section2 #mostrarModal {
@@ -203,6 +213,10 @@
     margin: auto; 
   }
 
+  .section2 p {
+    margin: 1em auto; 
+  }
+
   .section2 #mostrarModal {
     width: 70%;
   }
@@ -225,6 +239,10 @@
     margin: auto; 
   }
 
+  .section2 p {
+    margin: 1em auto;  
+  }
+
   .section2 #mostrarModal {
     width: 65%;
   }
@@ -245,6 +263,10 @@
   
   .section2 fieldset {
     margin: auto; 
+  }
+
+  .section2 p {
+    margin: 1em auto; 
   }
 
   .section2 #mostrarModal {

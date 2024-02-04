@@ -39,33 +39,35 @@ function Key() {
                 </form>
               </div>
             </div>
-          </fieldset>
+          </fieldset> 
         </nav>
         <div className="c-key">
-          <fieldset>
-            <h2 className='m-0'>Recupera tu cuenta</h2>
-            <hr className="border" />
-            <h3 className='m-0'>
-              Introduce tu correo electrónico o número de móvil para buscar tu cuenta.
-            </h3>
-            <form className="rec-acc">
-              <input
-                type="email"
-                className="form-control"
-                id="Email"
-                placeholder="Correo electronico o número de movil"
-              />
-            </form>
-            <hr className="border m-2 p-0" />
-            <div className="buttends m-0 p-0">
-              <button type="button" className="btn" id="button1">
-                Cancelar
-              </button>
-              <button type="button" className="btn" id="button2">
-                Buscar
-              </button>
-            </div>
-          </fieldset>
+          <div className="cont-f">
+            <fieldset>
+              <form>
+                <h2 className='m-0 h2-st'>Recupera tu cuenta</h2>
+                <hr className="border" />
+                <h3 className='m-0 h3-st'>
+                  Introduce tu correo electrónico o número de móvil para buscar tu cuenta.
+                </h3>
+                <input
+                  type="email"
+                  className="form-control"
+                  id="Email"
+                  placeholder="Correo electronico o número de movil"
+                />
+                <hr className="border m-1 p-0" />
+                <div className="buttends m-0 p-0">
+                  <button type="button" className="btn" id="button1">
+                    Cancelar
+                  </button>
+                  <button type="button" className="btn" id="button2">
+                    Buscar
+                  </button>
+                </div>
+              </form>
+            </fieldset>
+          </div>
         </div>
       </div>
       <footer></footer>
